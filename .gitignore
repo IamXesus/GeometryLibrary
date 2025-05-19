@@ -1,0 +1,46 @@
+.vs/
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+out/
+build/
+artifacts/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+*.nuspec
+
+# Testing
+[Tt]est[Rr]esults/
+*.coverlet
+*.coverage
+
+# OS/Editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Rider, JetBrains
+*.sln.iml
+
+# Logs
+*.log
+
+# Local environment
+.env
+.env.*
+
+# Scratch/temp (Rider)
+.idea/.idea.SCRATCHES
+Scratches/
+*.scratch
