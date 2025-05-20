@@ -11,7 +11,7 @@ public class Circle : IShape
     /// <summary>
     /// Радиус круга.
     /// </summary>
-    public double Radius { get;}
+    private double Radius { get;}
 
     /// <summary>
     /// Инициализирует новый экземпляр класса <see cref="Circle"/>.

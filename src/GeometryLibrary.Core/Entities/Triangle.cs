@@ -8,9 +8,9 @@ namespace GeometryLibrary.Core.Entities;
 /// </summary>
 public class Triangle : IShape
 {
-    public double A { get; }
-    public double B { get; }
-    public double C { get; }
+    private double A { get; }
+    private double B { get; }
+    private double C { get; }
     
     /// <summary>
     /// Инициализирует новый экземпляр класса <see cref="Triangle"/>.
